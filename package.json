@@ -7,15 +7,10 @@
   "homepage": "https://github.com/rtsao/csjs-injectify",
   "repository": "git@github.com:rtsao/csjs-injectify.git",
   "bugs": "https://github.com/rtsao/csjs-injectify/issues",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "browserify-transform-tools": "^1.5.0",
-    "insert-css": "^0.2.0"
-  },
-  "peerDependencies": {
-    "csjs": "0.0.0-alpha - 1.x"
+    "acorn": "^2.4.0",
+    "csjs-inject": "https://github.com/rtsao/csjs-inject/tarball/master",
+    "falafel": "^1.2.0"
   },
   "license": "MIT"
 }
