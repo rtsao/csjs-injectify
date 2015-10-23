@@ -34,7 +34,7 @@ module.exports = function (file) {
 
 function walk(node){
   if (node.type === 'ImportDeclaration') {
-    node.update(node.source().replace(regex, '$1bcsjs-inject$1'))
+    node.update(node.source().replace(regex, '$1csjs-inject$1'))
   } else if (isRequire(node)) {
     if (node.arguments[0].value === 'csjs') {
       var quote = node.arguments[0].raw[0][0];
