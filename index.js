@@ -1,5 +1,6 @@
 'use strict';
 
+var through = require('through2');
 var acorn = require('acorn');
 var falafel = require('falafel');
 

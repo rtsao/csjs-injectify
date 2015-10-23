@@ -10,7 +10,8 @@
   "dependencies": {
     "acorn": "^2.4.0",
     "csjs-inject": "https://github.com/rtsao/csjs-inject/tarball/master",
-    "falafel": "^1.2.0"
+    "falafel": "^1.2.0",
+    "through2": "^2.0.0"
   },
   "license": "MIT"
 }
