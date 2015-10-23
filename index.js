@@ -20,7 +20,7 @@ module.exports = function (file) {
       return error(err)
     }
 
-    this.push(injectified);
+    this.push(injectified.toString());
     next();
   });
 
