@@ -34,11 +34,11 @@ module.exports = function (file) {
 
 function walk(node){
   if (node.type === 'ImportDeclaration') {
-    node.update(node.source().replace(regex, '$1csjs-inject$1'))
+    node.update(node.source().replace(regex, '$1csjs-injectify/csjs-inject$1'))
   } else if (isRequire(node)) {
     if (node.arguments[0].value === 'csjs') {
       var quote = node.arguments[0].raw[0][0];
-      node.arguments[0].update(quote + 'csjs-inject' + quote);
+      node.arguments[0].update(quote + 'csjs-injectify/csjs-inject' + quote);
     }
   }
 }
