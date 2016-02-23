@@ -4,12 +4,15 @@
   "description": "Browserify transform to inject csjs files",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "main": "index.js",
+  "keywords": [
+    "csjs"
+  ],
   "homepage": "https://github.com/rtsao/csjs-injectify",
   "repository": "git@github.com:rtsao/csjs-injectify.git",
   "bugs": "https://github.com/rtsao/csjs-injectify/issues",
   "dependencies": {
     "acorn": "^2.4.0",
-    "csjs-inject": "^1.0.0-alpha",
+    "csjs-inject": "^1.0.0",
     "falafel": "^1.2.0",
     "through2": "^2.0.0"
   },
