@@ -7,6 +7,7 @@ var falafel = require('falafel');
 var regex = /(['"`])csjs\1/;
 
 module.exports = function (file) {
+  if (/\.json$/.test(file)) return through();
   var output = through(function(buf, enc, next) {
     var source = buf.toString('utf8');
 
