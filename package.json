@@ -11,7 +11,7 @@
   "repository": "git@github.com:rtsao/csjs-injectify.git",
   "bugs": "https://github.com/rtsao/csjs-injectify/issues",
   "dependencies": {
-    "acorn": "^2.4.0",
+    "acorn": "^7.1.1",
     "csjs-inject": "^1.0.0",
     "falafel": "^1.2.0",
     "through2": "^2.0.0"
